@@ -14,4 +14,5 @@ patch:
     Control_L: noop
     Control_R: noop
   "key_binder/bindings/+":
-    - {accept: "Control+space", toggle: ascii_mode, when: always}
+    # - {accept: "Control+Shift+space", toggle: ascii_mode, when: always}
+    # - {accept: "Control+space", toggle: noop, when: always}
